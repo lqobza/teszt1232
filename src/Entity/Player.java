@@ -104,7 +104,7 @@ public class Player extends MapObject {
                 sprites.add(bi);
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            //e.printStackTrace();
         }
         animation = new Animation();
         currentAction = IDLE;
