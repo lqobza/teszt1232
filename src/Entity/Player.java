@@ -75,7 +75,7 @@ public class Player extends MapObject {
         scratchRange = 40;
 
         //sprites
-        /*try {
+        try {
             BufferedImage spritesheet = ImageIO.read(
                     getClass().getResourceAsStream("/Res/Sprites/Player/playersprites.gif")
             );
@@ -108,8 +108,9 @@ public class Player extends MapObject {
         }
         animation = new Animation();
         currentAction = IDLE;
-        animation.setFrames(sprites.get(IDLE));
-        animation.setDelay(400);*/
+        if(sprites != null)
+            animation.setFrames(sprites.get(IDLE));
+        animation.setDelay(400);
 
     }
 
