@@ -9,6 +9,6 @@ jdk:
  
 script:  
   - jdk_switcher use oraclejdk8
-  - Test/GameTest.java
+  - test/Entity/PlayerTest.java
   - jdk_switcher use openjdk8
-  - Test/GameTest.java
+  - test/Entity/PlayerTest.java
