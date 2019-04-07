@@ -5,7 +5,7 @@
  */
 package Entity;
 
-import TileMap.TileMap;
+import TileMap.*;
 import Entity.Player;
 
 import org.junit.Test;
@@ -23,18 +23,17 @@ public class PlayerTest {
     
     @Test
     public void testGetHealth() {
-        //TileMap tileMap = new TileMap(50);
-        //tileMap.setPosition(0, 0);
+        TileMap tileMap = new TileMap(50);
+        tileMap.setPosition(0, 0);
 
-        //Player player = new Player(tileMap);
+        Player player = new Player(tileMap);
         
-        //int actual = player.getHealth();
+        int actual = player.getHealth();
         int expected = 5;
-        int actual = 5;
         assertEquals(expected,actual);
     }
 
-    /*
+    
     @Test
     public void testGetMaxHealth() {
         TileMap tileMap = new TileMap(50);
@@ -102,6 +101,6 @@ public class PlayerTest {
 
     @Test
     public void testDraw() {
-    }*/
+    }
     
 }
