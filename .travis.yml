@@ -1,3 +1,14 @@
 language: java
-sudo: false
-script: mvn clean verify
+install: ant deps
+
+
+jdk:
+  - oraclejdk8
+  - oraclejdk9
+  - openjdk8
+ 
+script:  
+  - jdk_switcher use oraclejdk8
+  - Test/GameTest.java
+  - jdk_switcher use openjdk8
+  - Test/GameTest.java
