@@ -95,32 +95,22 @@ public class PlayerTest {
         assertTrue(player.getFiring());         
     }
 
-    /**
-     * Test of setScratching method, of class Player.
-     */
-    @Test
+   
+   /* @Test
     public void testSetScratching() {
     }
 
-    /**
-     * Test of setGliding method, of class Player.
-     */
+    
     @Test
     public void testSetGliding() {
     }
 
-    /**
-     * Test of update method, of class Player.
-     */
     @Test
     public void testUpdate() {
     }
 
-    /**
-     * Test of draw method, of class Player.
-     */
     @Test
     public void testDraw() {
-    }
+    }*/
     
 }
