@@ -132,6 +132,10 @@ public class Player extends MapObject {
     public void setFiring() {
         firing = true;
     }
+ 
+    public boolean getFiring() {
+        return firing;
+    }    
 
     public void setScratching() {
         scratching = true;
