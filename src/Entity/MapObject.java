@@ -217,9 +217,9 @@ public abstract class MapObject {
         up = b;
     }
 
-    public void setDown(boolean b) {
+    /*public void setDown(boolean b) {
         down = b;
-    }
+    }*/
 
     public void setJumping(boolean b) {
         jumping = b;
